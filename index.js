@@ -12,4 +12,8 @@ app.get('/', (req,res) => {
   res.status(200).send(data);
 });
 
+app.post('/data', (req,res) => {
+  data = req.body;
+  res.status(201).send('Added');
+});
 app.listen(PORT, () => console.log(`Server listening on ${PORT}`));

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/micgreene/cloud-server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "zip": "^1.2.0"
   }
 }
