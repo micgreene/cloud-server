@@ -14,6 +14,6 @@ app.get('/', (req,res) => {
 
 app.post('/data', (req,res) => {
   data = req.body;
-  res.status(201).send('Added');
+  res.status(201).send('Added New Object!');
 });
 app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
